@@ -4,6 +4,7 @@ import Currentweather from './components/currentweather/curweather.js';
 import Search from './components/search/Search';
 import { WEATHER_API_KEY, WEATHER_API_URL } from './api';
 import Forecast from './components/Forecast/Forecast';
+import Chatbot from './chatbot.js';
 
 function App() {
   const [currentweather, setcurrentweather] = useState(null);
